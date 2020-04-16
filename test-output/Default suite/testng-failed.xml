@@ -9,7 +9,6 @@
           <include name="AddProductToFaveList"/>
           <include name="RemoveProductFromFaveList"/>
           <include name="teardown"/>
-          <include name="SearchProduct"/>
         </methods>
       </class> <!-- testcases.AddRemoveFromFavesTest -->
     </classes>

@@ -8,29 +8,22 @@ import org.openqa.selenium.support.PageFactory;
 
 import base.TestBase;
 
-
 public class FavorilerimListelerimPage extends TestBase {
-	
-	
-	
-	@FindBy(xpath="//h4[@class='listItemTitle']")
+
+	@FindBy(xpath = "//h4[@class='listItemTitle']")
 	WebElement favorilerim;
-	
+
 	public FavorilerimListelerimPage() {
 		// TODO Auto-generated constructor stub
 		PageFactory.initElements(driver, this);
 	}
-	
-	
+
 	public FavorilerimPage goToFavorilerim() {
-		
-		
+
 		favorilerim.click();
-	
+
 		return new FavorilerimPage();
-		
+
 	}
-	
-	
 
 }

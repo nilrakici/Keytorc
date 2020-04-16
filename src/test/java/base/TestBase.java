@@ -43,11 +43,11 @@ public static void initialization ()
 }
 
 
-public void waitForVisibilityOf (By locator, Integer TimeOutinSeconds) {
+public void waitForVisibilityOf (By locator) {
 	int attempts=0;
 	while (attempts<2) {
 		try {
-			waitFor(ExpectedConditions.visibilityOfElementLocated(locator), TimeOutinSeconds);
+			waitFor(ExpectedConditions.visibilityOfElementLocated(locator), 20);
 		}
 	  catch (StaleElementReferenceException e) {
 		

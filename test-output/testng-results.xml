@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="61860" started-at="2020-04-16T15:27:00Z" finished-at="2020-04-16T15:28:02Z">
+  <suite name="TestSuite" duration-ms="43500" started-at="2020-04-16T21:45:15Z" finished-at="2020-04-16T21:45:58Z">
     <groups>
     </groups>
-    <test name="testcases" duration-ms="61860" started-at="2020-04-16T15:27:00Z" finished-at="2020-04-16T15:28:02Z">
+    <test name="testcases" duration-ms="43500" started-at="2020-04-16T21:45:15Z" finished-at="2020-04-16T21:45:58Z">
       <class name="testcases.AddRemoveFromFavesTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="setup" is-config="true" duration-ms="29431" started-at="2020-04-16T18:27:00Z" finished-at="2020-04-16T18:27:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="setup" is-config="true" duration-ms="21077" started-at="2020-04-17T00:45:15Z" finished-at="2020-04-17T00:45:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SearchProduct()[pri:0, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="SearchProduct" duration-ms="12232" started-at="2020-04-16T18:27:30Z" finished-at="2020-04-16T18:27:42Z">
+        <test-method status="PASS" signature="SearchProduct()[pri:0, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="SearchProduct" duration-ms="7977" started-at="2020-04-17T00:45:36Z" finished-at="2020-04-17T00:45:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchProduct -->
-        <test-method status="PASS" signature="AddProductToFaveList()[pri:1, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="AddProductToFaveList" duration-ms="9342" started-at="2020-04-16T18:27:42Z" finished-at="2020-04-16T18:27:51Z">
+        <test-method status="PASS" signature="AddProductToFaveList()[pri:1, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="AddProductToFaveList" duration-ms="5818" started-at="2020-04-17T00:45:44Z" finished-at="2020-04-17T00:45:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProductToFaveList -->
-        <test-method status="PASS" signature="RemoveProductFromFaveList()[pri:2, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="RemoveProductFromFaveList" duration-ms="3786" started-at="2020-04-16T18:27:51Z" finished-at="2020-04-16T18:27:55Z">
+        <test-method status="PASS" signature="RemoveProductFromFaveList()[pri:2, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="RemoveProductFromFaveList" duration-ms="4735" started-at="2020-04-17T00:45:50Z" finished-at="2020-04-17T00:45:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveProductFromFaveList -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="teardown" is-config="true" duration-ms="6986" started-at="2020-04-16T18:27:55Z" finished-at="2020-04-16T18:28:02Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.AddRemoveFromFavesTest@2f112965]" name="teardown" is-config="true" duration-ms="3862" started-at="2020-04-17T00:45:54Z" finished-at="2020-04-17T00:45:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

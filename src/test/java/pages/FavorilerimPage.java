@@ -12,47 +12,42 @@ import org.openqa.selenium.support.PageFactory;
 
 import base.TestBase;
 
-public class FavorilerimPage extends TestBase  {
-	
-	@FindBy(xpath="//span[@class='deleteProFromFavorites']")
+public class FavorilerimPage extends TestBase {
+
+	@FindBy(xpath = "//span[@class='deleteProFromFavorites']")
 	WebElement deletebutton;
-	
-	
 
-	@FindBy(xpath="//span[@class='btn btnBlack confirm']")
+	@FindBy(xpath = "//span[@class='btn btnBlack confirm']")
 	WebElement confirmbutton;
-	
 
-	@FindBy(xpath="//h3[@class='productName ']")
-	  List<WebElement> productisim;
-	
-	
+	@FindBy(xpath = "//h3[@class='productName ']")
+	List<WebElement> productisim;
+
 	public FavorilerimPage() {
-		
+
 		// TODO Auto-generated constructor stub
 		PageFactory.initElements(driver, this);
 	}
-	
-public String getPageSource() {
-	
-	String source= driver.getPageSource();
-	return source;
-	
-}
 
-public String getProduct() {
-	
-	String prname = productisim.get(0).getText();
-	
-	return prname;
-}
+	public String getPageSource() {
 
+		String source = driver.getPageSource();
+		return source;
 
-public void DeleteFromFaves() {
-	
-	deletebutton.click();
-	confirmbutton.click();
-	driver.navigate().refresh();
-}
+	}
+
+	public String getProduct() {
+
+		String prname = productisim.get(0).getText();
+
+		return prname;
+	}
+
+	public void DeleteFromFaves() {
+
+		deletebutton.click();
+		confirmbutton.click();
+		driver.navigate().refresh();
+	}
 
 }
