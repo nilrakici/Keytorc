@@ -9,15 +9,16 @@ if you're using osx or linux you should install maven with following command
 if you're using windows you should use following command
     scoop install maven node
     
-# Technology used
-Selenium
+# Technologies used
+Selenium WebDriver
 Maven
 TestNG
 
 # Notes
-Page object pattern is used
+Page object pattern is used.
 
 
-# You can run test cases 
-right click testng.xml and click 'Run As' TestNG Suite.
+# You can run test cases from your IDE
+- right click testng.xml then click Run As 1 TestNG Suite
+- or right click AddRemoveFromFavesTest.java then click Run As TestNG Test.
 
